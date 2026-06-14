@@ -11,6 +11,8 @@ This repository serves as a centralized workspace for developing, maintaining, a
 | Package  | Description                                       | Status |
 | -------- | ------------------------------------------------- | ------ |
 | PwdScore | Password strength evaluation and scoring utility. | Active |
+| FaultSnap| Captures Python crashes for offline debugging.    | Active |
+
 
 Additional packages may be added over time.
 
@@ -18,13 +20,13 @@ Additional packages may be added over time.
 
 ```bash
 git clone https://github.com/Vineshnayak/PyPi.git
-cd PyPi
 ```
 
 Navigate to a package:
 
 ```bash
 cd PwdScore
+cd FaultSnap
 ```
 
 Install locally:
