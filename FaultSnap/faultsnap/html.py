@@ -22,7 +22,7 @@ def generate_html_report(capsule_path, output_path=None):
     # Load Mermaid JS
     try:
         import pkgutil
-        mermaid_js = pkgutil.get_data("faultsnap.templates", "mermaid.min.js").decode("utf-8")
+        mermaid_js = pkgutil.get_data("faultsnap", "templates/mermaid.min.js").decode("utf-8")
     except Exception:
         mermaid_js = "/* Failed to load local mermaid.min.js */"
     
