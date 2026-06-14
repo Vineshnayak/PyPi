@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-  { name="Vinesh Nayak", email="vineshnayak@example.com" },
+  { name="Vinesh Nayak", email="vineshnayak.jatothu@gmail.com" },
 ]
 keywords = ["debugging", "crash", "traceback", "offline", "developer-tools", "capsule"]
 
@@ -53,5 +53,5 @@ artifacts = [
 testpaths = ["tests"]
 
 [project.urls]
-Homepage = "https://github.com/vineshnayak/faultsnap"
-Repository = "https://github.com/vineshnayak/faultsnap"
+Homepage = "https://github.com/Vineshnayak/PyPi/tree/main/FaultSnap"
+Repository = "https://github.com/Vineshnayak/PyPi/tree/main/FaultSnap"
